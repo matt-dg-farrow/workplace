@@ -1,0 +1,14 @@
+package results;
+
+public class Results {
+
+	public void display(int phy, int bio, int chem) {
+		double totalMark = phy + bio + chem;
+		System.out.println("Physics:" + phy);
+		System.out.println("Biology:" + bio);
+		System.out.println("Chemistry:" + chem);
+		System.out.println("Total:" + totalMark);
+		
+	}
+	
+}

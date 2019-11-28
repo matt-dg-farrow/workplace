@@ -1,0 +1,10 @@
+package maths;
+
+public class Maths {
+	public static void main(String[] args) {
+		sum(6, 12);
+	}
+	private static int sum(int a, int b) {
+		return a + b;
+	}
+}

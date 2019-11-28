@@ -1,0 +1,15 @@
+package trainee;
+
+import java.util.Date;
+
+public class Trainee {
+
+	int age;
+	String name;
+	Date dob;
+	
+	public void breathe () {
+		System.out.println("#sigh#");
+	}
+
+}

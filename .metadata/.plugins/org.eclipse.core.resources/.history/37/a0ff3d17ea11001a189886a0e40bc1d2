@@ -1,0 +1,15 @@
+package personPackage;
+
+public class App {
+	public static void main(String[] args) {
+
+		Person bob = new Person();
+		bob.setName("Bob");
+		bob.setAge(70);
+		bob.setJobTitle("Bin man");
+		System.out.println(bob.details()); 
+		
+		
+	}
+
+}

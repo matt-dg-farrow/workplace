@@ -1,0 +1,14 @@
+package app;
+
+import results.Results;
+
+public class App 
+{
+    public static void main( String[] args ) {
+    Results myResults = new Results();
+    myResults.display(100, 87, 90);
+    myResults.totalPercentage(100, 87, 90)
+    
+    
+    }
+}

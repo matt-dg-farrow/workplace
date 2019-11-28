@@ -1,0 +1,13 @@
+package App;
+
+import trainee.Trainee;
+
+public class App {
+	public static void main(String[] args) {
+		Trainee james = new Trainee();
+		james.name = "James";
+		james.age = 22;
+		james.breathe();
+		james.printDetails();
+	}
+}

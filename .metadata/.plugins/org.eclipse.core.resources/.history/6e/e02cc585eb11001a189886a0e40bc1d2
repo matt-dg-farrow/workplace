@@ -1,0 +1,14 @@
+package personPackage;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class PersonManager {
+	List<Person> people = new ArrayList<>();
+	
+	public PersonManager(Person... p) {
+		people.addAll(Arrays.asList(p));
+		int i = 1;
+	}
+}

@@ -1,0 +1,32 @@
+package maths;
+
+public class Maths {
+	public static void main(String[] args) {
+		System.out.println(sum(6, 12));
+		System.out.println(multiply(6, 12));
+		System.out.println(subtract(6, 12));
+		System.out.println(divide(4, 5));
+		
+	}
+	private static int sum(int a, int b) {
+		return a + b;
+	}
+	private static int multiply(int c, int d) {
+		return c*d;
+	}
+	private static int subtract(int e, int f) {
+		return e-f;
+	}
+	private static double divide(double g, double h) {
+		
+		if(h>=g) {
+			double answer=g/h;
+			return answer;
+		}
+		else {
+			System.out.println("This division cannot be performed.");
+		}
+	
+	}
+	
+}
