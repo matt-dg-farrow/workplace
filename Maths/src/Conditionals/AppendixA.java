@@ -13,11 +13,11 @@ public class AppendixA {
 				System.out.println("C");
 			}
 			else {
-				System.out.println("B")
+				System.out.println("B");
 				if(a>4000) {
 		}else {
 			
 			}
 		}
 	}
-}
+	}
